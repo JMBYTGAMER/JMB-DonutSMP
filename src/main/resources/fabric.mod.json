@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "jmb_donutsmp",
+  "version": "${version}",
+  "name": "JMB DonutSMP Offline",
+  "description": "A LAN/offline Donut-style survival economy with bots, AH, orders and dynamic prices.",
+  "authors": ["JMB"],
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.jmb.donut.JmbDonutSmp"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
